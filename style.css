@@ -1,0 +1,117 @@
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f6f0dc;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      width: 90%;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #555;
+    }
+
+    .section {
+      display: flex;
+      justify-content: space-around;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 15px;
+      width: 200px;
+      margin: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      font-size: 20px;
+      color: #006b8f;
+    }
+
+    .highlight {
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .map-container {
+      position: relative;
+      width: 400px;
+      margin: 0 auto 50px auto;
+     
+      
+    }
+
+    .map-container img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 500px;
+    }
+
+    /* Labels around the map */
+    .label {
+      position: absolute;
+      background: white;
+      padding: 8px 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .luzon {
+      top: 20px;
+      left: -140px;
+    }
+
+    .visayas {
+      bottom: 40px;
+      right: -140px;
+    }
+
+    .socio {
+      background: #333;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: left;
+    }
+
+    .socio h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .socio-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .socio-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .socio-item span {
+      font-size: 14px;
+    }
