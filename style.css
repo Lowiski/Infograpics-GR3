@@ -1,117 +1,126 @@
-  body {
-      font-family: Arial, sans-serif;
-      background-color: #f6f0dc;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f0dc;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
 
-    .container {
-      width: 90%;
-      text-align: center;
-      padding: 20px;
-    }
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
 
-    h1 {
-      font-size: 28px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
-    h2 {
-      font-size: 18px;
-      margin-bottom: 20px;
-      color: #555;
-    }
+h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+  font-weight: 500;
+}
 
-    .section {
-      display: flex;
-      justify-content: space-around;
-      margin: 30px 0;
-      flex-wrap: wrap;
-    }
+.top-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
 
-    .card {
-      background: white;
-      border-radius: 12px;
-      padding: 15px;
-      width: 200px;
-      margin: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 15px 30px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
 
-    .card h3 {
-      margin: 10px 0;
-      font-size: 20px;
-      color: #006b8f;
-    }
+.card h3 {
+  font-size: 14px;
+  color: #0a3d5e;
+  margin-bottom: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
-    .highlight {
-      font-size: 22px;
-      font-weight: bold;
-      color: #333;
-    }
+.highlight {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+}
 
-    .map-container {
-      position: relative;
-      width: 400px;
-      margin: 0 auto 50px auto;
-     
-      
-    }
+.map-container {
+  position: relative;
+  width: 400px;
+  margin: 0 auto 50px auto;
+}
 
-    .map-container img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 500px;
-    }
+.map-container img {
+  width: 100%;
+  border-radius: 10px;
+}
 
-    /* Labels around the map */
-    .label {
-      position: absolute;
-      background: white;
-      padding: 8px 12px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      font-size: 14px;
-      text-align: center;
-    }
+/* Label styles for Luzon and Visayas */
+.label {
+  position: absolute;
+  background: white;
+  padding: 12px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  font-size: 16px;
+  text-align: left;
+  width: 130px;
+  font-weight: 600;
+  color: #0a3d5e;
+}
 
-    .luzon {
-      top: 20px;
-      left: -140px;
-    }
+.luzon {
+  top: 30px;
+  left: -150px;
+}
 
-    .visayas {
-      bottom: 40px;
-      right: -140px;
-    }
+.visayas {
+  bottom: 40px;
+  right: -150px;
+}
 
-    .socio {
-      background: #333;
-      color: white;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: left;
-    }
+.socio {
+  background: #0a3d5e;
+  color: white;
+  padding: 25px 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 40px auto;
+}
 
-    .socio h3 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+.socio h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
 
-    .socio-items {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-    }
+.socio-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
 
-    .socio-item {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .socio-item span {
-      font-size: 14px;
-    }
+.socio-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 14px;
+}
