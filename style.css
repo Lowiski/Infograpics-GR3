@@ -1,30 +1,185 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f6f0dc;
+* {
   margin: 0;
   padding: 0;
-  color: #333;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background: url("../images/navbg.jpg") center center / cover no-repeat fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.nav-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.digital {
+  font-weight: 700;
+  color: white;
+  font-size: 31px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#First-sl {
+  background: url("../images/first.jpg") center center / cover no-repeat fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#First-sl h1 {
+  font-size: 50px;
+}
+
+#First-sl p {
+  max-width: 700px;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+#Second-sl {
+  background: url("../images/second.jpg") center center / cover no-repeat fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Second-sl h1 {
+  font-size: 50px;
+}
+
+#Second-sl p {
+  max-width: 700px;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+#Third-sl {
+  background: url("../images/Third.jpg") center center / cover no-repeat fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Third-sl h1 {
+  font-size: 50px;
+}
+
+#Third-sl p {
+  max-width: 700px;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+
+#Fourth-sl {
+  background: url("../images/fourth.jpg") center center / cover no-repeat fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Fourth-sl h1 {
+  font-size: 50px;
+}
+
+#Fourth-sl p {
+  max-width: 700px;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+#Last-sl {
+  background: url("../images/fourth.jpg") center center / cover no-repeat fixed;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Last-sl h1 {
+  font-size: 50px;
+}
+
+#Last-sl p {
+  max-width: 700px;
+  font-size: 35px;
+  line-height: 1.5;
+  margin-top: 20px;
+  text-align: center;
+  text-align: justify;
+}
+
+body {
+  padding-top: 70px;
 }
 
 .container {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
   text-align: center;
-  padding: 20px;
+  background-color: #f6f0dc;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px 0 60px 0;
+  overflow-x: hidden;
 }
 
-h1 {
-  font-size: 28px;
-  font-weight: bold;
-  margin-bottom: 5px;
+.title {
+  padding-bottom: 20px;
 }
 
-h2 {
-  font-size: 18px;
-  margin-bottom: 30px;
-  color: #555;
-  font-weight: 500;
+.title h1 {
+  font-weight: 700;
+  color: #4a4235;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: #5d554c;
+  font-weight: 600;
 }
 
 .top-info {
@@ -70,7 +225,6 @@ h2 {
   border-radius: 10px;
 }
 
-/* Label styles for Luzon and Visayas */
 .label {
   position: absolute;
   background: white;
@@ -123,4 +277,10 @@ h2 {
   gap: 12px;
   font-weight: 600;
   font-size: 14px;
+}
+
+.footer {
+  text-align: center;
+  background-color: rgb(3, 3, 31);
+  color: white;
 }
