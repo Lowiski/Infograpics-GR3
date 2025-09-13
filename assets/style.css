@@ -285,3 +285,83 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 80px; 
+  }
+
+  nav {
+    height: auto; 
+    padding: 10px 20px; 
+    background-attachment: scroll !important;
+  }
+
+  .digital {
+    font-size: 24px;
+  }
+
+  #First-sl,
+  #Second-sl,
+  #Third-sl,
+  #Fourth-sl,
+  #Last-sl {
+    background-attachment: scroll !important; 
+  }
+
+  #First-sl h1,
+  #Second-sl h1,
+  #Third-sl h1,
+  #Fourth-sl h1,
+  #Last-sl h1 {
+    font-size: 30px;
+  }
+
+  #First-sl p,
+  #Second-sl p,
+  #Third-sl p,
+  #Fourth-sl p,
+  #Last-sl p {
+    font-size: 18px;
+    padding: 0 10px;
+    text-align: justify;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .map-container {
+    width: 100%;
+  }
+
+  .label {
+    font-size: 12px;
+    padding: 8px 12px;
+    width: 100px;
+  }
+
+  .luzon {
+    top: 20px;
+    left: 0;
+  }
+
+  .visayas {
+    bottom: 20px;
+    right: 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .highlight {
+    font-size: 18px;
+  }
+
+  .socio-items {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
